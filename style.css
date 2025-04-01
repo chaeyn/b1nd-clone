@@ -1,3 +1,7 @@
+body,
+html {
+  overflow-x: hidden;
+}
 body {
   background-color: #232424;
   user-select: none;
@@ -24,15 +28,30 @@ span {
 }
 hr {
   height: 1px;
-  width: 90%;
+  width: 85%;
   border: none;
   background-color: #383a3b;
 }
+header {
+  height: 60px;
+  background-color: #232424;
+  z-index: 100;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  padding: 17px 25px;
+  width: 100%;
+  top: 0;
+}
+main {
+  margin-top: 60px;
+}
 .navbar {
+  padding: 5px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  padding: 0 10vh;
+  padding: 0 7vh;
+  width: 85%;
 }
 .navbar .logo {
   list-style: none;
@@ -40,7 +59,7 @@ hr {
 .navbar .menu {
   list-style: none;
   display: flex;
-  gap: 40px;
+  gap: 30px;
   color: white;
 }
 .none {
@@ -50,8 +69,19 @@ hr {
   height: 50px;
 }
 .history {
+  display: flex;
+  justify-content: center;
+  width: 85%;
   font-weight: 400;
+  font-size: 40px;
 }
+h1 {
+  font-size: 40px;
+}
+.about {
+  font-size: 60px;
+}
+
 .about-team {
   color: #0283f0;
   cursor: pointer;
@@ -60,4 +90,12 @@ hr {
 .blog:hover {
   color: #0283f0;
   cursor: pointer;
+}
+.history-ul li {
+  color: white;
+  font-size: 20px;
+}
+.history-ul li::marker {
+  color: #0283f0;
+  font-size: 1.5em;
 }
