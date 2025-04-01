@@ -1,22 +1,26 @@
 body {
   background-color: #232424;
+  user-select: none;
 }
 h1 {
   color: white;
   font-size: 300%;
   position: relative;
   margin-left: 110px;
+  cursor: default;
 }
 h2 {
   color: #0283f0;
   font-weight: 400;
   position: relative;
   margin-left: 110px;
+  cursor: default;
 }
 span {
   color: #9b9d9f;
   display: inline-block;
   margin-left: 110px;
+  cursor: default;
 }
 hr {
   height: 1px;
@@ -36,7 +40,7 @@ hr {
 .navbar .menu {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 60px;
   color: white;
 }
 .none {
@@ -46,9 +50,14 @@ hr {
   height: 50px;
 }
 .history {
-  position: relative;
-  margin: 0 auto;
-  justify-content: center;
-  align-items: center;
   font-weight: 400;
+}
+.about-team {
+  color: #0283f0;
+  cursor: pointer;
+}
+.service:hover,
+.blog:hover {
+  color: #0283f0;
+  cursor: pointer;
 }
