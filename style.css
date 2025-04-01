@@ -40,7 +40,7 @@ hr {
 .navbar .menu {
   list-style: none;
   display: flex;
-  gap: 60px;
+  gap: 40px;
   color: white;
 }
 .none {
