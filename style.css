@@ -91,11 +91,3 @@ h1 {
   color: #0283f0;
   cursor: pointer;
 }
-.history-ul li {
-  color: white;
-  font-size: 20px;
-}
-.history-ul li::marker {
-  color: #0283f0;
-  font-size: 1.5em;
-}
