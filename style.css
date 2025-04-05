@@ -97,6 +97,10 @@ h1 {
   align-items: center;
   position: relative;
 }
+.ddslogo {
+  margin-right: 150px;
+}
 .logo-group {
   gap: 10px;
+  margin-right: 150px;
 }
