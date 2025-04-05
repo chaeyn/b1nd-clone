@@ -3,12 +3,13 @@ html {
   overflow-x: hidden;
 }
 body {
-  background-color: #232424;
   user-select: none;
+  background-color: #232424;
 }
+
 h1 {
   color: white;
-  font-size: 300%;
+  font-size: 40px;
   position: relative;
   margin-left: 110px;
   cursor: default;
@@ -46,6 +47,7 @@ header {
 main {
   margin-top: 60px;
 }
+
 .navbar {
   padding: 5px;
   display: flex;
@@ -62,12 +64,14 @@ main {
   gap: 30px;
   color: white;
 }
+
 .none {
   height: 100px;
 }
 .none-h1 {
-  height: 50px;
+  height: 80px;
 }
+
 .history {
   display: flex;
   justify-content: center;
@@ -75,13 +79,10 @@ main {
   font-weight: 400;
   font-size: 40px;
 }
-h1 {
-  font-size: 40px;
-}
+
 .about {
   font-size: 60px;
 }
-
 .about-team {
   color: #0283f0;
   cursor: pointer;
@@ -91,6 +92,7 @@ h1 {
   color: #0283f0;
   cursor: pointer;
 }
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -101,6 +103,12 @@ h1 {
   margin-right: 150px;
 }
 .logo-group {
-  gap: 10px;
+  display: flex;
+  gap: 15px;
   margin-right: 150px;
+}
+.gitlogo,
+.figmalogo,
+.ddslogo {
+  width: 80px;
 }
