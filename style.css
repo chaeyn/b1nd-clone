@@ -91,3 +91,12 @@ h1 {
   color: #0283f0;
   cursor: pointer;
 }
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.logo-group {
+  gap: 10px;
+}
