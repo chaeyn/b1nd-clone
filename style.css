@@ -46,8 +46,6 @@ header {
   background-color: #232424;
   z-index: 100;
   position: fixed;
-  justify-content: center;
-  align-items: center;
   padding: 18px 25px;
   width: 100%;
   top: 0;
@@ -57,7 +55,6 @@ main {
 }
 
 .navbar {
-  padding: 5px;
   display: flex;
   justify-content: space-between;
   padding: 0 7vh;
@@ -165,7 +162,6 @@ main {
   justify-content: space-between;
   width: 85%;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .footer-left p {
