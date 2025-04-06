@@ -2,6 +2,7 @@ body,
 html {
   overflow-x: hidden;
 }
+
 body {
   user-select: none;
   background-color: #232424;
@@ -10,48 +11,54 @@ body {
 
 h1 {
   color: white;
-  font-size: 40px;
+  font-size: 2.5rem;
   position: relative;
-  margin-left: 110px;
+  margin-left: 7rem;
   cursor: default;
 }
+
 h2 {
   color: #0283f0;
   font-weight: 400;
   position: relative;
-  margin-left: 110px;
+  margin-left: 7rem;
   cursor: default;
 }
+
 span {
   color: #9b9d9f;
   display: inline-block;
-  margin-left: 110px;
+  margin-left: 7rem;
   cursor: default;
 }
+
 p.history {
   color: white;
-  font-size: 40px;
+  font-size: 2.5rem;
   position: relative;
-  margin-left: 110px;
+  margin-left: 7rem;
   cursor: default;
 }
+
 hr {
-  height: 1px;
+  height: 0.1rem;
   width: 85%;
   border: none;
   background-color: #383a3b;
 }
+
 header {
-  height: 60px;
+  height: 3.8rem;
   background-color: #232424;
   z-index: 100;
   position: fixed;
-  padding: 18px 25px;
+  padding: 1.1rem 1.6rem;
   width: 100%;
   top: 0;
 }
+
 main {
-  margin-top: 60px;
+  margin-top: 3.8rem;
 }
 
 .navbar {
@@ -60,42 +67,17 @@ main {
   padding: 0 7vh;
   width: 85%;
 }
+
 .navbar .logo {
   list-style: none;
 }
+
 .navbar .menu {
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: 2rem;
   color: white;
-}
-
-.none {
-  height: 100px;
-}
-.none-h1 {
-  height: 80px;
-}
-
-.history {
-  display: flex;
-  justify-content: center;
-  width: 85%;
-  font-weight: 400;
-  font-size: 40px;
-}
-
-.about {
-  font-size: 60px;
-}
-.about-team {
-  color: #0283f0;
-  cursor: pointer;
-}
-.service:hover,
-.blog:hover {
-  color: #0283f0;
-  cursor: pointer;
+  transform: translateX(-3rem);
 }
 
 .container {
@@ -104,58 +86,99 @@ main {
   align-items: center;
   position: relative;
 }
-.ddslogo {
-  margin-right: 150px;
-}
+
 .logo-group {
   display: flex;
-  gap: 15px;
-  margin-right: 150px;
+  gap: 1rem;
+  margin-right: 9.5rem;
 }
+
 .gitlogo,
 .figmalogo,
 .ddslogo {
-  width: 80px;
+  width: 5rem;
+}
+
+.ddslogo {
+  margin-right: 9.5rem;
 }
 
 .entry {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .year {
-  font-size: 22px;
+  font-size: 1.5rem;
   color: white;
   font-weight: 500;
   display: flex;
   align-items: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
 }
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 0.7rem;
+  height: 0.7rem;
   background-color: #0283f0;
   border-radius: 50%;
-  margin-right: 10px;
+  margin-right: 0.6rem;
 }
 
 .event {
-  margin-left: 20px;
-  margin-top: 4px;
+  margin-left: 1.3rem;
+  margin-top: 0.3rem;
+  margin-bottom: 2.5rem;
   color: white;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
 
 .month {
   color: #9b9d9f;
-  margin-right: 4px;
+  margin-right: 0.3rem;
+}
+
+.month.hidden {
+  visibility: hidden;
+  display: inline-block;
+  width: 3ch;
+}
+
+.none {
+  height: 6.3rem;
+}
+
+.none-h1 {
+  height: 5rem;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  width: 85%;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.about {
+  font-size: 3.8rem;
+}
+
+.about-team {
+  color: #0283f0;
+  cursor: pointer;
+}
+
+.service:hover,
+.blog:hover {
+  color: #0283f0;
+  cursor: pointer;
 }
 
 .footer {
   background-color: #232424;
-  padding: 30px 0;
+  padding: 1.9rem 0;
   color: #ccc;
-  font-size: 12px;
+  font-size: 0.8rem;
 }
 
 .footer-container {
@@ -165,8 +188,13 @@ main {
   margin: 0 auto;
 }
 
+.footer-left {
+  display: flex;
+  transform: translateX(0.6rem);
+}
+
 .footer-left p {
-  margin: 5px 0;
+  margin: 0.3rem 0;
   color: #9b9d9f;
 }
 
@@ -176,26 +204,16 @@ main {
 
 .footer-right {
   display: flex;
-  gap: 60px;
-  color: #d3d4d5;
+  gap: 2rem;
+  transform: translateX(-0.6rem);
 }
 
 .footer-links a {
   color: #ccc;
   text-decoration: none;
-  margin: 5px 0;
+  margin: 0.3rem 0;
 }
 
 .footer-links a:hover {
   color: #0283f0;
-}
-
-.event {
-  margin-bottom: 40px;
-}
-
-.month.hidden {
-  visibility: hidden;
-  display: inline-block;
-  width: 3ch;
 }
