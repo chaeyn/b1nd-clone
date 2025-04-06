@@ -28,7 +28,7 @@ span {
   margin-left: 110px;
   cursor: default;
 }
-p {
+p.history {
   color: white;
   font-size: 40px;
   position: relative;
@@ -151,4 +151,44 @@ main {
 .month {
   color: #9b9d9f;
   margin-right: 4px;
+}
+
+.footer {
+  background-color: #232424;
+  padding: 30px 0;
+  color: #ccc;
+  font-size: 12px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.footer-left p {
+  margin: 5px 0;
+  color: #9b9d9f;
+}
+
+.footer-left a:hover {
+  color: #0283f0;
+}
+
+.footer-right {
+  display: flex;
+  gap: 60px;
+  color: #d3d4d5;
+}
+
+.footer-links a {
+  color: #ccc;
+  text-decoration: none;
+  margin: 5px 0;
+}
+
+.footer-links a:hover {
+  color: #0283f0;
 }
