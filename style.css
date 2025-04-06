@@ -5,6 +5,7 @@ html {
 body {
   user-select: none;
   background-color: #232424;
+  padding: 2rem;
 }
 
 h1 {
@@ -120,21 +121,34 @@ main {
   width: 80px;
 }
 
-.history-ul .year-2017 {
+.entry {
+  margin-bottom: 40px;
+}
+
+.year {
+  font-size: 22px;
+  color: white;
+  font-weight: 500;
   display: flex;
   align-items: center;
-  gap: 12px;
-  width: 120px;
-  font-size: 22px;
-  line-height: 130%;
-  color: #fff;
 }
-.history-ul span {
+
+.dot {
   width: 10px;
   height: 10px;
-  background-color: rgb(0, 131, 240);
-  border-radius: 100%;
+  background-color: #0283f0;
+  border-radius: 50%;
+  margin-right: 10px;
 }
-.year {
-  color: #fff;
+
+.event {
+  margin-left: 20px;
+  margin-top: 4px;
+  color: white;
+  font-size: 16px;
+}
+
+.month {
+  color: #9b9d9f;
+  margin-right: 4px;
 }
